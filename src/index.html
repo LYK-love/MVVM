@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="../build/MVVM.js"></script>
+    </head>
+    <body>
+        <h1>
+            Hello！
+        </h1>
+        <div>
+            <div>
+                Name:
+                <input id = "app1" data-bind="value" type="text"  value="Name PLZ">
+                <textarea id = "app1.1" data-bind="value">和app1双向绑定</textarea>
+                <br>
+                <input id = "app1.2" data-bind="value" type="text"  value="Name PLZ2">
+                
+                <br>
+                <br>
+                <br>
+                Email:
+                <input id = "app3" data-bind="email" type="text" value="Email PLZ">
+                <textarea id = "app4" data-bind="email">和app2双向绑定</textarea>
+              </div>
+
+        </div>
+    </body>
+</html>
